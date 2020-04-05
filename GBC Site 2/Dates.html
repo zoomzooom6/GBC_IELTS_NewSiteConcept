@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>George Brown College IELTS Test Centre New Site - Dates+Locations</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Helvetica", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:300px}
+.fa {
+  padding: 10px;
+  font-size: 22px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+.fa-facebook {
+  color: white;
+}
+
+.fa-twitter {
+  color: white;
+}
+
+.fa-linkedin {
+  color: white;
+}
+
+.nav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 12px;
+  padding: 5px;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+.w3-theme-blue {color:#fff !important; background-color:#005392 !important}
+.w3-theme-red {color:#fff !important; background-color:#DF011A !important}
+.w3-hover-theme:hover {color:#fff !important; background-color:#df011a !important}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme-blue w3-card w3-left-align w3-24">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-theme-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="Main.html" class="w3-bar-item w3-button w3-padding-24 w3-hover-theme">HOME</a>
+    <a href="About.html" class="w3-bar-item w3-button w3-hide-small w3-padding-24 w3-hover-theme">ABOUT</a>
+    <a href="Dates.html" class="w3-bar-item w3-button w3-hide-small w3-padding-24 w3-white">DATES & LOCATIONS</a>
+    <a href="Results.html" class="w3-bar-item w3-button w3-hide-small w3-padding-24 w3-hover-theme">RESULTS</a>
+    <a href="TestDay.html" class="w3-bar-item w3-button w3-hide-small w3-padding-24 w3-hover-theme">TEST DAY</a>
+	<a href="Register.html" class="w3-bar-item w3-button w3-hide-small w3-padding-24 w3-hover-theme">REGISTRATION</a>
+    <a href="Prep.html" class="w3-bar-item w3-button w3-hide-small w3-padding-24 w3-hover-theme">TEST PREPARATION</a>
+	<a href="https://ieltsregistration.britishcouncil.org/test-chooser/ca?organisation=georgebrowncollege" target="_blank" class="w3-bar-item w3-button w3-padding-24 w3-theme-red">REGISTER FOR IELTS</a>
+	<a class="w3-bar-item w3-padding-18 w3-theme-blue">341 King St E, Room 419 | (416) 415-5000 x2564 <br> Monday-Friday 8:30AM-4:30PM</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-blue w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="About.html" class="w3-bar-item w3-button w3-padding-large w3-hover-theme">ABOUT</a>
+    <a href="Dates.html" class="w3-bar-item w3-button w3-padding-large w3-hover-theme">DATES & LOCATIONS</a>
+    <a href="Results.html" class="w3-bar-item w3-button w3-padding-large w3-hover-theme">RESULTS</a>
+    <a href="TestDay.html" class="w3-bar-item w3-button w3-padding-large w3-hover-theme">TEST DAY</a>
+    <a href="Register.html" class="w3-bar-item w3-button w3-padding-large w3-hover-theme">REGISTRATION</a>
+    <a href="Prep.html" class="w3-bar-item w3-button w3-padding-large w3-hover-theme">TEST PREPARATION</a>
+  </div>
+</div>
+
+<!--Header -->
+<div class="w3-display-container w3-padding-64">
+  <img src="GBCIELTS.jpg" alt="GBCIELTS" style="width:100%">
+</div>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>IELTS Test Locations</h1>
+    <div class="w3-third w3-center">
+      <img src=""></i>
+    </div>
+  </div>
+</div>
+
+<!-- Locations table -->
+<div class="w3-container w3-content" style="max-width:1010px"> 
+  <div class="w3-bar w3-theme-blue w3-center">
+    <button class="w3-bar-item w3-button tablink w3-theme-red" onclick="openCity(event,'GBC')">Toronto</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'HMC')">Mississauga</button>
+    <button class="w3-bar-item w3-button tablink" onclick="openCity(event,'DVS')">Brampton</button>
+	<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Geo')">Barrie</button>
+	<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Reni')">Waterloo</button>
+	<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Mac')">Hamilton</button>
+	<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'RJC')">Burlington</button>
+	<button class="w3-bar-item w3-button tablink" onclick="openCity(event,'Flem')">Peterborough</button>
+  </div>
+  
+  <div id="GBC" class="w3-container w3-border city">
+    <h2>George Brown College</h2>
+	<h3>St. James Campus</h3>
+    <p><b>Paper based</b><br>341 King St E<br>4th Floor<br><br><b>Computer delivered</b><br>200 King St E<br>2nd Floor</p>
+  </div>
+
+  <div id="HMC" class="w3-container w3-border city" style="display:none">
+    <h2>Sheridan College</h2>
+	<h3>Hazel McCallion Campus</h3>
+    <p><b>Paper based</b><br>4180 Duke of York Blvd<br>Building B, 4th Floor</p> 
+  </div>
+  
+  <div id="DVS" class="w3-container w3-border city" style="display:none">
+	<h2>Sheridan College</h2>
+	<h3>Davis Campus</h3>
+	<p><b>Paper based</b><br>7899 McLaughlin Rd<br>A-Wing, 3rd Floor</p>
+  </div>
+
+  <div id="Geo" class="w3-container w3-border city" style="display:none">
+	<h2>Georgian College</h2>
+    <p><b>Paper based</b><br>1 Georgian Dr<br>K-Wing, 2nd Floor</p>
+  </div>
+  
+  <div id="Reni" class="w3-container w3-border city" style="display:none">
+    <h2>Renison University College</h2>
+    <p><b>Paper based</b><br>240 Westmount Rd N</p>
+  </div>
+  
+  <div id="Mac" class="w3-container w3-border city" style="display:none">
+    <h2>McMaster University</h2>
+	<h3>Continuing Education Centre</h3>
+    <p><b>Paper based</b><br>1 James St N</p>
+  </div>
+  
+  <div id="RJC" class="w3-container w3-border city" style="display:none">
+    <h2>McMaster University</h2>
+	<h3>Ron Joyce Centre DeGroote School of Business</h3>
+	<p><b>Paper based</b><br>4350 South Service Rd<br>2nd Floor</p>
+</div>
+
+  <div id="Flem" class="w3-container w3-border city" style="display:none">
+    <h2>Fleming College</h2>
+	<p><b>Paper based</b><br>599 Brealey Drive<br>D Building</p>
+</div>
+<br><br><br>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-24 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+      <img src=""></i>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Test Dates</h1>
+      <h6><b>AC</b> = Paper-based Academic<br><br>
+	  <b>GT</b> = Paper-based General Training<br><br>
+	  <b>CD</b> = Computer-delivered (Academic or General Training)</h6>
+    </div>	
+  </div>
+</div>
+
+<div class="w3-row-padding w3-light-grey w3-padding-8 w3-container">
+	<div class="w3-responsive w3-content" style="max-width: 1000px">	
+		<table class="w3-table-all">
+		<tr>
+			<th></th>
+			<th class="w3-center">George Brown College</th>
+			<th class="w3-center">Sheridan HMC</th>
+			<th class="w3-center">Sheridan DVS</th>
+			<th class="w3-center">Georgian College</th>
+			<th class="w3-center">Renison University College</th>
+			<th class="w3-center">McMaster University</th>
+			<th class="w3-center">Fleming College</th>
+			<th class="w3-center">Ron Joyce Center</th>
+		</tr>
+		<tr>
+			<td>May 3 2020</td>
+			<td class="w3-center">CD</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>May 9 2020</td>
+			<td class="w3-center">CD, AC</td>
+			<td></td>
+			<td class="w3-center">AC</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>May 10 2020</td>
+			<td class="w3-center">CD</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>May 21 2020</td>
+			<td class="w3-center">AC/GT</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>May 24 2020</td>
+			<td class="w3-center">CD</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>May 30 2020</td>
+			<td class="w3-center">AC/GT</td>
+			<td class="w3-center">AC/GT</td>
+			<td class="w3-center">AC/GT</td>
+			<td></td>
+			<td class="w3-center">AC/GT</td>
+			<td class="w3-center">AC/GT</td>
+			<td></td>
+			<td class="w3-center">AC/GT</td>
+		</tr>
+		<tr>
+			<td>May 31 2020</td>
+			<td class="w3-center">CD</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		</table><br><br>
+	</div>
+	<div class="w3-center">
+		<a href="https://ieltsregistration.britishcouncil.org/test-chooser/ca?organisation=georgebrowncollege" target="_blank"><img src="Register.jpg" alt="RegistrationLink"></a><br>
+		<br><br><br>
+	</div>
+</div>
+
+<div class="w3-display-container w3-theme-blue" style="height:70px;">
+  <div class="w3-display-left w3-center w3-padding-small">
+    <span class="w3-text-white">Hours of Operation:<br>Monday-Friday<br>8:30AM-4:30PM</span>
+  </div>
+  <div class="w3-display-right w3-center w3-padding-small">
+    <span class="w3-text-white">341 King Street East, Room 419<br>416-415-5000 x2564</span>
+  </div>
+  <div class="w3-padding w3-display-middle">
+  <a href="https://www.facebook.com/gbcieltstestcentre" target="_blank" class="fa fa-facebook-official w3-hover-opacity" style="text-decoration:none"></a>
+    <a href="https://twitter.com/ieltstestcentre" target="_blank" class="fa fa-twitter w3-hover-opacity" style="text-decoration:none"> </a>
+    <a href="https://www.linkedin.com/company/george-brown-college-official-ielts-test-centre/" target="
+_blank" class="fa fa-linkedin w3-hover-opacity w3-large" style="text-decoration:none"></a>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-small w3-center w3-opacity">
+  <ul class="nav">
+    <li><a href="https://www.georgebrown.ca/" target="_blank" style="text-decoration:none">George Brown College Website</a></li>
+    <li><a href="http://takeielts.britishcouncil.org/" target="_blank" style="text-decoration:none">British Council</a></li>
+    <li><a href="https://www.georgebrown.ca/ielts/feedback_form/" target="_blank" style="text-decoration:none">Feedback</a></li>  
+    <li><a href="https://www.georgebrown.ca/ielts/legal/" target="_blank" style="text-decoration:none">Legal</a></li>
+	<li><a href="https://www.georgebrown.ca/ielts/privacy/" target="_blank" style="text-decoration:none">Privacy</a></li>
+  </ul>  
+  <p>© Copyright 2020 George Brown College</a></p>
+</footer>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+<script>
+function openCity(evt, cityName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("city");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" w3-theme-red", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " w3-theme-red";
+}
+</script>
+
+</body>
+</html>
